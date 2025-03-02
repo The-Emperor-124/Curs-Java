@@ -1,4 +1,4 @@
-package Lectia_01;
+package Lectii.Lectia_01;
 
 public class Elev {
     // atribute care sunt specifice unui elev

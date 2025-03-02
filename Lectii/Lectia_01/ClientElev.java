@@ -1,4 +1,4 @@
-package Lectia_01;
+package Lectii.Lectia_01;
 
 public class ClientElev {
     public static void main(String[] args) {
