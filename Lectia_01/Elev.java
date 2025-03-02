@@ -10,10 +10,19 @@ public class Elev {
      */
 
     private String numeElev;  // String e o clasa infasuratoare, ar fi echivalenta cu char numeElev[100];
-    private int varstaElev;
+    private int varstaElev = 0;
 
 
     // constructorul clasei Elev
+    public Elev(){
+        numeElev = "Anonim";
+        varstaElev = 13;
+    }
+
+    public Elev(String numeElev){
+        this.numeElev = numeElev;
+    }
+
     public Elev(String numeElev, int varstaElev){
         this.numeElev = numeElev; // puteam sa scriem si numeElev = numeElev;
         this.varstaElev = varstaElev;

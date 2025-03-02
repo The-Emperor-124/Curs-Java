@@ -19,5 +19,13 @@ public class ClientElev {
         elev.setVarstaElev(17);
 
         System.out.println("Varsta elevului este : " + elev.getVarstaElev());
+
+        Elev elev2 = new Elev();
+
+        System.out.println("Varsta elevului 2 este : " + elev2.getVarstaElev());
+
+        Elev elev3 = new Elev("Ionel");
+
+        elev3.invata();
     }
 }
