@@ -27,5 +27,8 @@ public class ClientElev {
         Elev elev3 = new Elev("Ionel");
 
         elev3.invata();
+        elev3.setVarstaElev(16);
+        System.out.println("Varsta Ionel :" + elev3.getVarstaElev());
+
     }
 }

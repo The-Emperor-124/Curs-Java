@@ -1,4 +1,4 @@
-
+package Lectii.Lectia_01;
 // Pasii pentru compilare si rulare:
 // 1. deschideti un terminal
 // 2. schimbati directorul la locatia fisierului Aplicatie.java

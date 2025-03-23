@@ -6,11 +6,12 @@ public class Elev {
     /*
         1. public - accesul la atributele si metodele clasei este permis din orice clasa
         2. private - accesul la atributele si metodele clasei este permis doar din interiorul clasei
-     
+        3. default - accesul la atributele si metodele clasei este permis doar din interiorul pachetului
      */
 
     private String numeElev;  // String e o clasa infasuratoare, ar fi echivalenta cu char numeElev[100];
     private int varstaElev = 0;
+    //double medieElev = 0.0;
 
 
     // constructorul clasei Elev
