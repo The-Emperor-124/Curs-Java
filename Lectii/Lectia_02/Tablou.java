@@ -59,5 +59,7 @@ public class Tablou {
             System.out.println(tablou[i]);
             i++;
         }
+
+        
     }
 }
